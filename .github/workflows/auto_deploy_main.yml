@@ -24,7 +24,7 @@ jobs:
     - name: installing npm 
       run: actions/setup-node@v2-beta
       with:
-        node-version: 12
+        node-version: 12.18.0
 
     # Runs a set of commands using the runners shell
     - name: installing surge
